@@ -11,13 +11,13 @@ int main() {
   vector<float> result;
 
   // Read input
-  cout << "Enter p: ";
+  cout << "Enter power: ";
   cin >> p;
-  cout << "Enter m: ";
+  cout << "Enter initial value: ";
   cin >> m;
-  cout << "Enter n: ";
+  cout << "Enter end value: ";
   cin >> n;
-  cout << "Enter l: ";
+  cout << "Enter step: ";
   cin >> l;
 
   // Compute x^p for x ranging from m to n in l steps
